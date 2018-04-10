@@ -1,0 +1,88 @@
+﻿  TestMatrix.cpp
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): error C2955: 'Matrix': use of class template requires template argument list
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(14): note: see declaration of 'Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): error C2244: 'Matrix::operator =': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): note: see declaration of 'Matrix::operator ='
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix::operator =(const Matrix &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix<T>::operator =(const Matrix<T> &)'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): error C2244: 'Matrix<T>::operator +': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(141): note: see declaration of 'Matrix<T>::operator +'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(const Matrix<T> &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(Matrix<T> &)'
+  Matrix.cpp
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): error C2955: 'Matrix': use of class template requires template argument list
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(14): note: see declaration of 'Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): error C2244: 'Matrix::operator =': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): note: see declaration of 'Matrix::operator ='
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix::operator =(const Matrix &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix<T>::operator =(const Matrix<T> &)'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): error C2244: 'Matrix<T>::operator +': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(141): note: see declaration of 'Matrix<T>::operator +'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(const Matrix<T> &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(Matrix<T> &)'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(9): error C2086: 'int Matrix<T>::matrixCnt': redefinition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(45): note: see declaration of 'Matrix<T>::matrixCnt'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(15): error C2995: 'int Matrix<T>::GetMatrixCnt(void)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(25): note: see declaration of 'Matrix<T>::GetMatrixCnt'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(27): error C2995: 'Matrix<T>::Matrix(void)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(16): note: see declaration of 'Matrix<T>::Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(42): error C2995: 'Matrix<T>::Matrix(int,int)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(17): note: see declaration of 'Matrix<T>::Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(60): error C2995: 'Matrix<T>::Matrix(const Matrix<T> &)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(18): note: see declaration of 'Matrix<T>::Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(72): error C2995: 'Matrix<T>::~Matrix(void)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(19): note: see declaration of 'Matrix<T>::~Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): error C2244: 'Matrix::operator =': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): note: see declaration of 'Matrix::operator ='
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix::operator =(const Matrix &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix<T>::operator =(const Matrix<T> &)'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): error C2244: 'Matrix<T>::operator +': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(141): note: see declaration of 'Matrix<T>::operator +'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(const Matrix<T> &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(Matrix<T> &)'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(204): error C2995: 'Matrix<T> Matrix<T>::operator *(Matrix<T> &)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(29): note: see declaration of 'Matrix<T>::operator *'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(216): error C2995: 'int Matrix<T>::Fill0123(void)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(30): note: see declaration of 'Matrix<T>::Fill0123'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(240): error C2995: 'int Matrix<T>::FillRand(void)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(31): note: see declaration of 'Matrix<T>::FillRand'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(246): error C2995: 'int Matrix<T>::GetRows(void) const': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(21): note: see declaration of 'Matrix<T>::GetRows'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(252): error C2995: 'int Matrix<T>::GetCols(void) const': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(22): note: see declaration of 'Matrix<T>::GetCols'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(258): error C2995: 'double Matrix<T>::GetElement(int,int) const': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(23): note: see declaration of 'Matrix<T>::GetElement'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(264): error C2995: 'void Matrix<T>::SetElement(int,int,double)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(24): note: see declaration of 'Matrix<T>::SetElement'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(270): error C2995: 'double &Matrix<T>::operator ()(const int &,const int &)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(33): note: see declaration of 'Matrix<T>::operator ()'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(285): error C2995: 'std::ostream &operator <<(std::ostream &,Matrix<T> &)': function template has already been defined
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(273): note: see declaration of 'operator <<'
+  Main.cpp
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): error C2955: 'Matrix': use of class template requires template argument list
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.h(14): note: see declaration of 'Matrix'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): error C2244: 'Matrix::operator =': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(79): note: see declaration of 'Matrix::operator ='
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix::operator =(const Matrix &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(80): note: 'Matrix<T> &Matrix<T>::operator =(const Matrix<T> &)'
+u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): error C2244: 'Matrix<T>::operator +': unable to match function definition to an existing declaration
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(141): note: see declaration of 'Matrix<T>::operator +'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: definition
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(const Matrix<T> &)'
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: existing declarations
+  u:\year_5\c++\matrixtemplate\matrixtemplate\matrix.cpp(142): note: 'Matrix<T> Matrix<T>::operator +(Matrix<T> &)'
+  Generating Code...
